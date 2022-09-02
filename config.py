@@ -20,7 +20,7 @@ class Config(metaclass=MetaSingleton):
 
     ApplicationFullName = f"{ApplicationName} {ApplicationVersion} {ApplicationBranch}"
 
-    IconPath = dirname(abspath(__file__)) + "/assets/icon/vk_downloader_icon.ico"
+    IconPath = dirname(abspath(__file__)) + "/assets/icon/vk_downloader_icon.png"
     IconPathV2 = dirname(abspath(__file__)) +  "/assets/icon/downloader_icon.png"
     IconPathV3 = dirname(abspath(__file__)) +  "/assets/icon/downloader.png"
 
